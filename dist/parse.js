@@ -28,7 +28,7 @@ var ast_1 = require('./ast')
 var source_helper_1 = require('./source-helper')
 var utils_1 = require('./utils')
 var ajv = new Ajv().addMetaSchema(
-  require('ajv/lib/refs/json-schema-draft-08.json')
+  require('ajv/lib/refs/json-schema-draft-06.json')
 )
 var validateYaml = ajv.compile(schema)
 function parseConfig () {
