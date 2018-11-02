@@ -1,0 +1,56 @@
+{
+  "main": "dist/index.js",
+  "name": "@peak-stone/graphqlgen",
+  "author": {
+    "name": "Prisma"
+  },
+  "bin": {
+    "graphql-resolver-codegen": "dist/index.js",
+    "graphqlgen": "dist/index.js",
+    "gg": "dist/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/prisma/graphqlgen/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "camelcase": "5.0.0",
+    "chalk": "2.4.1",
+    "graphql": "^14.0.2",
+    "graphql-import": "0.7.1",
+    "graphqlgen-json-schema": "0.2.11",
+    "js-yaml": "3.12.0",
+    "mkdirp": "0.5.1",
+    "prettier": "1.14.3",
+    "reason": "3.3.4",
+    "rimraf": "2.6.2",
+    "typescript": "3.1.6",
+    "yargs": "12.0.2"
+  },
+  "deprecated": false,
+  "description": "Generate resolver types based on a GraphQL Schema",
+  "devDependencies": {
+    "@types/camelcase": "4.1.0",
+    "@types/graphql": "14.0.3",
+    "@types/jest": "23.3.7",
+    "@types/js-yaml": "3.11.2",
+    "@types/mkdirp": "0.5.2",
+    "@types/node": "10.12.2",
+    "@types/prettier": "1.13.2",
+    "@types/rimraf": "2.0.2",
+    "@types/yargs": "12.0.1",
+    "jest": "23.6.0",
+    "ts-jest": "23.10.4",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0"
+  },
+  "homepage": "https://github.com/prisma/graphqlgen#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prisma/graphqlgen.git"
+  },
+  "scripts": {},
+  "version": "0.3.0"
+}
