@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.1"></a>
+## [0.4.1](https://github.com/prisma/graphqlgen/compare/v0.4.0...v0.4.1) (2018-11-02)
+
+
+### Bug Fixes
+
+* json-schema-draft-08 -> json-schema-draft-06 ([7f9afdf](https://github.com/prisma/graphqlgen/commit/7f9afdf))
+
+
+
 <a name="0.4.0"></a>
 # 0.4.0 (2018-11-02)
 
